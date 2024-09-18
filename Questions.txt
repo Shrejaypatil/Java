@@ -8,6 +8,43 @@ VIP customers can stack additional discounts on top of existing offers.
 Objective: Build a logic that applies and sorts the most beneficial offers for the customer.
 Hint: Use similar logic for calculating discounts, but ensure that combining offers works under the constraints.
 
++-------------------+        +------------------+         +------------------+
+|    Customer       |<>----- |     Cart         |<>------ |   Offer           |
+|-------------------|        |------------------|         |------------------|
+| - customerId      |        | - cartItems      |         | + applyDiscount() |
+| - name            |        | - totalValue     |         | + isApplicable()  |
+| - type            |        |                  |         +------------------+
+| + getOffers()     |        | + calculateTotal()|
+|-------------------|        +------------------+         +------------------+
+        ^
+        | 
++--------------------+        +--------------------+       +----------------------+
+| RegularCustomer    |        | VIPCustomer        |       | PercentageDiscount    |
+|--------------------|        |--------------------|       |----------------------|
+| + getOffers()      |        | + getVIPDiscount() |       | + applyDiscount()     |
++--------------------+        +--------------------+       +----------------------+
+                                                         
+                                                         +----------------------+
+                                                         | FixedAmountDiscount   |
+                                                         |----------------------|
+                                                         | + applyDiscount()     |
+                                                         +----------------------+
+
+                                                         +----------------------+
+                                                         | BuyOneGetOne          |
+                                                         |----------------------|
+                                                         | + applyDiscount()     |
+                                                         +----------------------+
+
++-------------------------+ 
+| DiscountCalculator       |
+|-------------------------|
+| + calculateBestOffers()  |
+| + filterApplicableOffers()|
+| + sortOffers()           |
++-------------------------+
+
+
 
 2. Flight Booking Platform Offers
 Question: You are tasked with building a system for sorting offers on a flight booking platform. The offers include:

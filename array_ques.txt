@@ -1,0 +1,51 @@
+Here are some common array manipulation questions that you might encounter in technical coding interviews:
+
+Easy
+Find the maximum and minimum elements in an array
+
+Given an array of integers, find the maximum and minimum elements.
+Move all zeros to the end
+
+Given an array of integers, move all the zeros to the end while maintaining the order of the other elements.
+Reverse an array
+
+Reverse the elements of an array in place.
+Remove duplicates from sorted array
+
+Given a sorted array, remove duplicates in-place and return the new length.
+Rotate an array
+
+Rotate the array by k steps to the right (cyclically).
+Medium
+Find the subarray with the maximum sum (Kadane's Algorithm)
+
+Given an array of integers, find the contiguous subarray that has the largest sum.
+Find all pairs in an array whose sum is equal to a given value
+
+Given an array of integers, find all unique pairs whose sum equals a target value.
+Find the missing number in a range
+
+An array contains n distinct numbers in the range [0, n]. One number is missing, find the missing number.
+Merge two sorted arrays
+
+Given two sorted arrays, merge them into one sorted array.
+Longest consecutive subsequence
+
+Find the length of the longest consecutive elements sequence in an unsorted array.
+Hard
+Trapping rainwater problem
+
+Given an array where each element represents the height of bars, find how much water can be trapped after rain.
+Maximum product subarray
+
+Find the contiguous subarray within an array (containing at least one number) which has the largest product.
+Find the median of two sorted arrays
+
+Given two sorted arrays, find the median of the merged array in logarithmic time.
+Count inversions in an array
+
+Given an array, find the number of inversions, where two elements form an inversion if a[i] > a[j] and i < j.
+Smallest subarray with sum greater than a given value
+
+Find the length of the smallest subarray whose sum is greater than a given value.
+These problems test various array manipulation techniques like sorting, searching, prefix sums, sliding window, and dynamic programming. Let me know if you'd like solutions or explanations for any of these!

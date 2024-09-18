@@ -1,0 +1,52 @@
+Here’s a list of string manipulation questions commonly asked in technical coding interviews, categorized from easy to hard:
+
+Easy:
+Reverse a String
+Given a string, return the reversed version of it.
+Check for Palindrome
+Determine if a given string is a palindrome (reads the same forwards and backwards).
+Count Vowels and Consonants
+Write a function that counts the number of vowels and consonants in a string.
+Find the First Non-Repeating Character
+Given a string, find the first non-repeating character in it.
+Implement strstr()
+Find the index of the first occurrence of a substring within another string, or return -1 if not found.
+
+
+Medium:
+Longest Common Prefix
+
+Given an array of strings, find the longest common prefix string amongst them.
+Longest Substring Without Repeating Characters
+
+Given a string, find the length of the longest substring without repeating characters.
+String Compression
+
+Implement a method to compress strings by counting consecutive characters. For example, aabcccccaaa becomes a2b1c5a3.
+Remove Duplicates from a String
+
+Remove all duplicate characters in a string and return the result.
+Check for Anagram
+
+Write a function to determine if two strings are anagrams of each other.
+
+
+
+
+Hard:
+Longest Palindromic Substring
+
+Given a string, find the longest substring that is a palindrome.
+Wildcard Pattern Matching
+
+Implement wildcard pattern matching with support for ? and * where ? matches a single character and * matches any sequence of characters.
+Edit Distance (Levenshtein Distance)
+
+Given two strings, find the minimum number of operations (insert, delete, or replace) required to convert one string into the other.
+Word Break Problem
+
+Given a string and a dictionary of words, determine if the string can be segmented into a space-separated sequence of dictionary words.
+Regular Expression Matching
+
+Implement regular expression matching with support for . and *. . matches any single character, and * matches zero or more of the preceding element.
+Let me know if you’d like to dive into solutions for any of these!
