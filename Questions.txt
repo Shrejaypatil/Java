@@ -1,0 +1,97 @@
+Here are some similar system design and logic-based questions for practice:
+
+1. Discount Strategy for Online Retailer
+Question: Design a system that displays discount offers for customers of an online retail platform. The offers should include percentage discounts, fixed amount discounts, and buy-one-get-one-free offers. The system should ensure that:
+Certain discounts apply only if the total cart value exceeds a minimum threshold.
+Users can combine a maximum of two offers.
+VIP customers can stack additional discounts on top of existing offers.
+Objective: Build a logic that applies and sorts the most beneficial offers for the customer.
+Hint: Use similar logic for calculating discounts, but ensure that combining offers works under the constraints.
+
+
+2. Flight Booking Platform Offers
+Question: You are tasked with building a system for sorting offers on a flight booking platform. The offers include:
+Cashback on credit card payments.
+Discounts for users booking tickets for more than 3 passengers.
+Special discounts for users booking more than 15 days in advance.
+Loyalty points for frequent flyers.
+Requirements:
+The system should prioritize offers based on their savings.
+Customers should receive only the highest-priority offer unless they are frequent flyers, in which case they get loyalty points as well.
+Objective: Write logic to handle offer sorting based on these requirements.
+
+
+3. Dynamic Meal Plan Discount Logic for Food Delivery
+Question: Design a discount logic for a food delivery service that offers:
+Discounts for ordering from selected restaurants.
+A flat discount for subscribing to a monthly meal plan.
+Special discounts for bulk orders (orders above Rs. 1000).
+Free drinks for premium users with orders above Rs. 500.
+Requirements:
+Ensure the meal plan discount is always the highest priority.
+Regular users can combine only one offer, while premium users can stack offers.
+Objective: Implement a system to rank and apply the most beneficial discount based on order details.
+
+
+4. E-Commerce Loyalty Program Sorting
+Question: An e-commerce platform has a loyalty program offering:
+Discounts based on customer tier (Silver, Gold, Platinum).
+Cashback for purchases above Rs. 2000.
+Free shipping for purchases above Rs. 1000.
+Special coupons for Gold and Platinum users.
+Requirements:
+If the cart value exceeds Rs. 2000, the customer should get both cashback and free shipping.
+Gold and Platinum users should get additional exclusive offers.
+Silver users can only avail one discount at a time.
+Objective: Build a logic to apply and prioritize offers based on the user's loyalty tier and cart value.\
+
+
+5. Multi-Category Discount Sorting for Supermarket
+Question: Design a discount system for a supermarket checkout that handles:
+Category-based discounts (e.g., 10% off on fruits).
+Discounts for purchases of more than 5 items from the same category.
+Combination of storewide discounts with category-specific discounts.
+Membership-based extra discount on top of other offers.
+Requirements:
+Ensure only one category-specific discount can be combined with a storewide discount.
+Members can stack a membership discount on top of other discounts.
+Objective: Implement logic to apply the best combination of offers while respecting constraints.
+
+
+
+6. Travel Booking Offers
+Question: A travel booking website offers several deals:
+5% discount for booking more than 7 days in advance.
+Cashback for using specific payment methods.
+Additional discounts for booking hotel + flight packages.
+VIP users get a free hotel upgrade on top of any offer.
+Requirements:
+The system should apply the most rewarding offer unless the user is a VIP, in which case they receive the free upgrade in addition to other offers.
+Only one discount can be applied for non-VIP users.
+Objective: Write logic to implement this system.
+
+
+
+7. Mobile Carrier Plans with Discounts
+Question: Design a system for a mobile carrier's payment portal. The system should handle:
+Discounts on prepaid recharge plans (e.g., 10% off on Rs. 500 plans).
+Cashback for users recharging more than Rs. 1000.
+A bonus data pack for postpaid users subscribing to an annual plan.
+Special perks for users who opt for auto-renewal.
+Requirements:
+Postpaid users can combine the bonus data pack with other offers.
+Prepaid users get only one offer at a time unless they opt for auto-renewal.
+Objective: Create logic to decide and apply offers based on the plan type (prepaid/postpaid), recharge amount, and whether auto-renewal is selected.
+
+
+8. Grocery Store Promotional Offers
+Question: A grocery store offers several promotions:
+10% off for orders above Rs. 1000.
+Buy 2 get 1 free on specific products.
+Free home delivery for orders above Rs. 1500.
+Additional 5% off for premium members.
+Requirements:
+Premium members should be able to stack the 5% discount with other offers.
+Non-premium members should only get one offer unless their cart value exceeds Rs. 1500, in which case they also get free delivery.
+Objective: Implement the logic to handle this promotional offer system.
+These practice questions cover various types of offers and discount strategies, similar to your Swiggy payment offers scenario, and help you design robust and flexible offer management systems.
