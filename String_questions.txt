@@ -29,24 +29,3 @@ Remove all duplicate characters in a string and return the result.
 Check for Anagram
 
 Write a function to determine if two strings are anagrams of each other.
-
-
-
-
-Hard:
-Longest Palindromic Substring
-
-Given a string, find the longest substring that is a palindrome.
-Wildcard Pattern Matching
-
-Implement wildcard pattern matching with support for ? and * where ? matches a single character and * matches any sequence of characters.
-Edit Distance (Levenshtein Distance)
-
-Given two strings, find the minimum number of operations (insert, delete, or replace) required to convert one string into the other.
-Word Break Problem
-
-Given a string and a dictionary of words, determine if the string can be segmented into a space-separated sequence of dictionary words.
-Regular Expression Matching
-
-Implement regular expression matching with support for . and *. . matches any single character, and * matches zero or more of the preceding element.
-Let me know if you’d like to dive into solutions for any of these!
